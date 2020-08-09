@@ -1,0 +1,254 @@
+<div class="row">
+  <div class="col-md-4">
+    <!--Card-->
+    <mdb-card cascade="true" wider="wider">
+
+      <!--Card image-->
+      <div class="view view-cascade overlay waves-light" mdbWavesEffect>
+        <mdb-card-img src="./assets/images/register.png"></mdb-card-img>
+        <a>
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+      <!--/Card image-->
+
+      <mdb-card-body cascade="true" class="text-center pb-0">
+        <!--Card content-->
+        <!--Title-->
+        <h4 class="card-title">
+          <strong>Register</strong>
+        </h4>
+        <h5 class="indigo-text">
+          <strong>Create a new account</strong>
+        </h5>
+
+        <mdb-card-text>
+          Register as a new Wallet User to create a new account.
+        </mdb-card-text>
+
+        <a mdbBtn color="unique" class="waves-light" mdbWavesEffect (click)="onRegister()">Register</a>
+
+                <!-- Card footer -->
+        <div class="card-footer text-muted text-center mt-4">
+            Step 1 <mdb-icon fas icon="angle-double-right red-text"></mdb-icon>
+        </div>
+
+
+      </mdb-card-body>
+      <!--/.Card content-->
+
+
+    </mdb-card>
+    <!--/.Card-->
+  </div>
+
+  <div class="col-md-4">
+    <!--Card-->
+    <mdb-card cascade="true" narrower="narrower">
+
+      <!--Card image-->
+      <div class="view view-cascade overlay waves-light" mdbWavesEffect>
+        <mdb-card-img src="./assets/images/login3.webp"></mdb-card-img>
+        <a>
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+      <!--/Card image-->
+
+      <mdb-card-body cascade="true" class="text-center pb-0 px-0">
+        <!--Card content-->
+        <h4 class="card-title">
+          <strong>Login</strong>
+        </h4>
+        <!--Title-->
+        <h4 class="indigo-text"><strong>Login to existing account</strong></h4>
+        <!--Text-->
+
+        <mdb-card-text>
+          Login into your existing account so that you will have access to your wallet.
+        </mdb-card-text>
+
+        <a mdbBtn color="unique" class="waves-light" mdbWavesEffect (click)="onLogin()">Login</a>
+
+        <!-- Card footer -->
+        <div class="card-footer text-muted text-center mt-4">
+          Step 2 <mdb-icon fas icon="angle-double-right red-text"></mdb-icon>
+        </div>
+
+      </mdb-card-body>
+      <!--/.Card content-->
+
+    </mdb-card>
+    <!--/.Card-->
+  </div>
+
+  <div class="col-md-4" id="card-3">
+    <!--Card-->
+    <mdb-card cascade="true" >
+
+      <!--Card image-->
+      <div class="view view-cascade overlay waves-light" mdbWavesEffect>
+        <mdb-card-img src="./assets/images/funds.webp"></mdb-card-img>
+        <a>
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+      <!--/Card image-->
+
+      <mdb-card-body cascade="true" class="text-center pb-0 px-0">
+        <!--Card content-->
+        <h4 class="card-title">
+          <strong>Wallet Operations</strong>
+        </h4>
+        <h5>Perform operations via your wallet</h5>
+
+        <mdb-card-text>
+          You can add money to your own wallet , withdraw money from your wallet and transfer some money to another
+          account.
+        </mdb-card-text>
+
+        <!--Facebook-->
+        <!--<a type="button" mdbBtn floating="true" size="sm" color="fb" class="waves-light" mdbWavesEffect>
+          <mdb-icon fab icon="facebook"></mdb-icon>
+        </a>
+        &lt;!&ndash;Twitter&ndash;&gt;
+        <a type="button" mdbBtn floating="true" size="sm" color="tw" class="waves-light" mdbWavesEffect>
+          <mdb-icon fab icon="twitter"></mdb-icon>
+        </a>
+        &lt;!&ndash;Google +&ndash;&gt;
+        <a type="button" mdbBtn floating="true" size="sm" color="dribbble" class="waves-light" mdbWavesEffect>
+          <mdb-icon fab icon="dribbble"></mdb-icon>
+        </a>-->
+        <a mdbBtn color="unique" class="waves-light" mdbWavesEffect (click)="Login()">Get Access to Wallet</a>
+        <!-- Card footer -->
+        <div class="card-footer text-muted text-center mt-4">
+          Step 3 <mdb-icon fas icon="angle-double-right red-text"></mdb-icon>
+        </div>
+
+      </mdb-card-body>
+      <!--/.Card content-->
+
+    </mdb-card>
+    <!--/.Card-->
+  </div>
+</div>
+<!--
+<div class="row">
+  <div class="col-lg-4 col-md-12 mb-4">
+
+
+    &lt;!&ndash;Card&ndash;&gt;
+    <div class="card card-cascade wider mb-4">
+
+      &lt;!&ndash;Card image&ndash;&gt;
+      <div class="view view-cascade">
+        <img src="https://mdbootstrap.com/img/Photos/Horizontal/People/6-col/img%20%283%29.jpg" class="card-img-top">
+        <a href="#!">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+      &lt;!&ndash;/Card image&ndash;&gt;
+
+      &lt;!&ndash;Card content&ndash;&gt;
+      <div class="card-body card-body-cascade text-center">
+        &lt;!&ndash;Title&ndash;&gt;
+        <h4 class="card-title"><strong>Alice Mayer</strong></h4>
+        <h5 class="indigo-text"><strong>Photographer</strong></h5>
+
+        <p class="card-text">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque
+          laudantium, totam
+          rem aperiam.
+        </p>
+
+
+        &lt;!&ndash;Linkedin&ndash;&gt;
+        <a class="icons-sm li-ic"><i class="fab fa-linkedin-in"> </i></a>
+        &lt;!&ndash;Twitter&ndash;&gt;
+        <a class="icons-sm tw-ic"><i class="fab fa-twitter"> </i></a>
+        &lt;!&ndash;Dribbble&ndash;&gt;
+        <a class="icons-sm fb-ic"><i class="fab fa-facebook-f"> </i></a>
+
+      </div>
+      &lt;!&ndash;/.Card content&ndash;&gt;
+
+    </div>
+    &lt;!&ndash;/.Card&ndash;&gt;
+
+  </div>
+  <div class="col-lg-4 col-md-6 mb-4">
+
+
+    &lt;!&ndash;Card&ndash;&gt;
+    <div class="card card-cascade narrower mb-4" style="margin-top: 28px">
+
+      &lt;!&ndash;Card image&ndash;&gt;
+      <div class="view view-cascade">
+        <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg" class="card-img-top"
+             alt="">
+        <a>
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+      &lt;!&ndash;/.Card image&ndash;&gt;
+
+      &lt;!&ndash;Card content&ndash;&gt;
+      <div class="card-body card-body-cascade">
+        <h5 class="pink-text"><i class="fas fa-utensils"></i> Culinary</h5>
+        &lt;!&ndash;Title&ndash;&gt;
+        <h4 class="card-title">Cheat day inspirations</h4>
+        &lt;!&ndash;Text&ndash;&gt;
+        <p class="card-text">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
+          laboriosam, nisi ut
+          aliquid ex ea commodi.</p>
+        <a class="btn btn-unique">Button</a>
+      </div>
+      &lt;!&ndash;/.Card content&ndash;&gt;
+
+    </div>
+    &lt;!&ndash;/.Card&ndash;&gt;
+
+  </div>
+  <div class="col-lg-4 col-md-6">
+
+
+    &lt;!&ndash;Card&ndash;&gt;
+    <div class="card card-cascade">
+
+      &lt;!&ndash;Card image&ndash;&gt;
+      <div class="view view-cascade">
+        <img src="https://mdbootstrap.com/img/Photos/Others/men.jpg" class="card-img-top" alt="">
+        <a>
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+      &lt;!&ndash;/.Card image&ndash;&gt;
+
+      &lt;!&ndash;Card content&ndash;&gt;
+      <div class="card-body card-body-cascade text-center">
+        &lt;!&ndash;Title&ndash;&gt;
+        <h4 class="card-title"><strong>Billy Cullen</strong></h4>
+        <h5>Web developer</h5>
+
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, ex,
+          recusandae. Facere modi
+          sunt, quod quibusdam.
+        </p>
+
+        &lt;!&ndash;Facebook&ndash;&gt;
+        <a type="button" class="btn-floating btn-small btn-fb"><i class="fab fa-facebook-f"></i></a>
+        &lt;!&ndash;Twitter&ndash;&gt;
+        <a type="button" class="btn-floating btn-small btn-tw"><i class="fab fa-twitter"></i></a>
+        &lt;!&ndash;Google +&ndash;&gt;
+        <a type="button" class="btn-floating btn-small btn-dribbble"><i class="fab fa-dribbble"></i></a>
+
+      </div>
+      &lt;!&ndash;/.Card content&ndash;&gt;
+
+    </div>
+    &lt;!&ndash;/.Card&ndash;&gt;
+
+  </div>
+</div>
+-->
+
+

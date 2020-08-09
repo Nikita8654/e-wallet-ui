@@ -1,0 +1,21 @@
+<mat-card-header>
+  <mat-toolbar class="toolbar">
+    <mat-card-title>You have successfully Registered!!</mat-card-title>
+    <span class="toolbar-spacer"></span>
+    <mat-icon (click)="onNoClick()">cancel</mat-icon>
+  </mat-toolbar>
+</mat-card-header><mat-card-content>
+  <div class="container">
+    <!--<div class="row">
+    <mdb-card-text>You have successfully Registered!!Now Login to continue....</mdb-card-text>
+    </div>-->
+    <div class="row">
+      <div class="col-md-6">
+        <a mdbBtn color="unique" class="waves-light" mdbWavesEffect (click)="Login()">Login</a>
+      </div>
+      <div class="col-md-6">
+        <a mdbBtn color="unique" class="waves-light" mdbWavesEffect (click)="Cancel()">Cancel</a>
+      </div>
+    </div>
+  </div>
+</mat-card-content>
